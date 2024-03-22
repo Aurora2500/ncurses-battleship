@@ -9,6 +9,8 @@ project "Battleship"
    cppdialect "C++20"
    toolset "clang"
 
+   links {"ncurses"}
+
    files { "**.hpp", "**.cpp" }
 
    filter "configurations:Debug"
